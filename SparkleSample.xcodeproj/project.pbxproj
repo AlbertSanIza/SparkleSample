@@ -12,7 +12,21 @@
 		230CFBE71F63620000057A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230CFBE61F63620000057A1A /* Assets.xcassets */; };
 		230CFBEA1F63620000057A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230CFBE81F63620000057A1A /* Main.storyboard */; };
 		238A3D631F636741001EB4A6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238A3D621F636741001EB4A6 /* Sparkle.framework */; };
+		238A3D651F6367E5001EB4A6 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 238A3D621F636741001EB4A6 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		238A3D641F6367BC001EB4A6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				238A3D651F6367E5001EB4A6 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		230CFBDF1F63620000057A1A /* SparkleSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparkleSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +89,7 @@
 				230CFBDB1F63620000057A1A /* Sources */,
 				230CFBDC1F63620000057A1A /* Frameworks */,
 				230CFBDD1F63620000057A1A /* Resources */,
+				238A3D641F6367BC001EB4A6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -257,7 +272,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SparkleSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertsanchez.SparkleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -274,7 +289,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = SparkleSample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertsanchez.SparkleSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
