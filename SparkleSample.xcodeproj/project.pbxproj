@@ -13,6 +13,9 @@
 		230CFBEA1F63620000057A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230CFBE81F63620000057A1A /* Main.storyboard */; };
 		238A3D631F636741001EB4A6 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238A3D621F636741001EB4A6 /* Sparkle.framework */; };
 		238A3D651F6367E5001EB4A6 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 238A3D621F636741001EB4A6 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		238A3D6A1F63693B001EB4A6 /* SampleAppcast.xml in Resources */ = {isa = PBXBuildFile; fileRef = 238A3D671F63693B001EB4A6 /* SampleAppcast.xml */; };
+		238A3D6B1F63693B001EB4A6 /* dsa_priv.pem in Resources */ = {isa = PBXBuildFile; fileRef = 238A3D681F63693B001EB4A6 /* dsa_priv.pem */; };
+		238A3D6C1F63693B001EB4A6 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 238A3D691F63693B001EB4A6 /* dsa_pub.pem */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,9 @@
 		230CFBE91F63620000057A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		230CFBEB1F63620000057A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		238A3D621F636741001EB4A6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		238A3D671F63693B001EB4A6 /* SampleAppcast.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SampleAppcast.xml; sourceTree = "<group>"; };
+		238A3D681F63693B001EB4A6 /* dsa_priv.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_priv.pem; sourceTree = "<group>"; };
+		238A3D691F63693B001EB4A6 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				230CFBE11F63620000057A1A /* SparkleSample */,
+				238A3D661F6368F9001EB4A6 /* Sparkle */,
 				230CFBE01F63620000057A1A /* Products */,
 				238A3D621F636741001EB4A6 /* Sparkle.framework */,
 			);
@@ -76,6 +83,17 @@
 				230CFBE81F63620000057A1A /* Main.storyboard */,
 				230CFBEB1F63620000057A1A /* Info.plist */,
 			);
+			path = SparkleSample;
+			sourceTree = "<group>";
+		};
+		238A3D661F6368F9001EB4A6 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				238A3D671F63693B001EB4A6 /* SampleAppcast.xml */,
+				238A3D681F63693B001EB4A6 /* dsa_priv.pem */,
+				238A3D691F63693B001EB4A6 /* dsa_pub.pem */,
+			);
+			name = Sparkle;
 			path = SparkleSample;
 			sourceTree = "<group>";
 		};
@@ -139,7 +157,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				238A3D6C1F63693B001EB4A6 /* dsa_pub.pem in Resources */,
+				238A3D6B1F63693B001EB4A6 /* dsa_priv.pem in Resources */,
 				230CFBE71F63620000057A1A /* Assets.xcassets in Resources */,
+				238A3D6A1F63693B001EB4A6 /* SampleAppcast.xml in Resources */,
 				230CFBEA1F63620000057A1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
