@@ -1,3 +1,3 @@
 # Sparkle Sample
 
-Test and used https://sparkle-project.org/
+Tested and used https://sparkle-project.org/
